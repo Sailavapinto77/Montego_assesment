@@ -1,0 +1,6 @@
+foo_var_1 = "xxx"
+aws_access_key = "xxx"
+aws_secret_key = "yyy"
+aws_region = "us-west-2"
+sns_topic_arn = "arn:aws:sns:us-west-2:123456789012:example-topic"
+instance_id = "i-0123456789abcdef0"
