@@ -1,0 +1,28 @@
+# Login to a container shell
+kubectl exec -it <pod-name> -- /bin/sh
+
+# This command opens an interactive shell inside the container running in the specified pod. Replace <pod-name> with the name of the pod you want to access.
+
+
+
+
+#Get logs from a pod
+kubectl logs <pod-name>
+
+# This command retrieves the logs from the specified pod. Replace <pod-name> with the name of the pod you want to get logs from.
+
+
+
+
+# Perform a rolling restart of a deployment
+kubectl rollout restart deployment <deployment-name>
+
+# This command initiates a rolling restart of the specified deployment. Replace <deployment-name> with the name of the deployment you want to restart.
+
+
+
+
+#Output YAML to a file for a deployment
+kubectl get deployment <deployment-name> -o yaml > deployment.yaml
+
+#This command retrieves the YAML definition of the specified deployment and saves it to a file named deployment.yaml. Replace <deployment-name> with the name of the deployment you want to retrieve the YAML definition for.

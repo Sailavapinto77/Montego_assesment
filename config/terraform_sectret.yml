@@ -1,0 +1,14 @@
+# Secret
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: my-secret
+type: Opaque
+data:
+  username: <base64-encoded-username>
+  password: <base64-encoded-password>
+
+
+# Replace <base64-encoded-username> and <base64-encoded-password> with base64-encoded values of the actual username and password you want to store in the secret.
+
